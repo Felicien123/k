@@ -1,0 +1,157 @@
+
+
+
+.header{
+   color: #000;
+   float: right;
+   word-spacing: 3cm;
+}
+
+.header1{
+   background-color: rgb(0, 0, 12);
+   width: 100%;
+   height: 100vh;
+   align-items: center;
+   
+}
+.oo{
+  
+   font-size: 30px;
+ margin-left: 300px;
+ color:white;
+}
+.ooo{
+   font-size: 50px;
+ margin-left: 400px;
+ color:white;
+}
+
+.oooo{
+   font-size: 40px;
+ margin-left: 500px;
+ color:white;
+ background-color: yellow;
+ margin-right: 550px;
+}
+
+
+
+*{
+   box-sizing: border-box;
+}
+.columns{
+   float: left;
+   width: 33.3%;
+   padding: 5px;
+}
+.row::after{
+   content: "";
+   display:table;
+   clear: both;
+}
+
+
+
+
+
+
+
+
+
+*{
+   box-sizing: border-box;
+}
+.colum{
+   float: left;
+   width: 50%;
+   padding: 5px;
+  
+}
+.ro::after{
+   content: "";
+   display:table;
+   clear: both;
+}
+
+
+.hillata{
+   width: 400px;
+   height: 700px;
+   float: left;
+}
+.p1{
+   font-size:xx-large;
+   color: rgb(11, 162, 64); ;
+   float: right;
+   margin-right: 100px;
+}
+.p2{
+   color:rgb(21, 21, 106);
+   float: right;
+   font-size: x-large;
+   margin-right: 60px;
+}
+.p3{
+   width: 642px;
+   color: rgba(3,70,5,1);
+   position: left;
+   top: 2739px;
+   left: 48px;
+   margin-left: 600px;
+   font-family: Inika;
+   font-weight: Regular;
+   font-size: 32px;
+   opacity: 1;
+   text-align: left;
+ }
+.p4{
+   width: 145px;
+   height: 138px;
+   background: url("../images/v4_24.png");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   margin-left: 450px;
+   margin-top: 1000px;
+   font-size: 18px;
+   opacity: 1;
+   position: absolute;
+   top: 968px;
+   left: 142px;
+   overflow: hidden;
+ }
+
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family:'hoppins', sans-serif;
+   box-sizing: border-box;
+
+}
+.hero{
+   width: 100%;
+   height: 100vh;
+   background-image: url(E:\Desktop\projects\verify\images\back.jpg);
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+form{
+   width: 90%;
+   max-width: 600px;
+}
+.input-group{
+margin-bottom: 30px;
+}
+input,textarea{
+   width: 100%;
+   padding: 2%;
+   outline: 0;
+   border: 1px solidrgb(8, 7, 7);
+   color: rgb(12, 11, 11);
+   background: transparent;
+   font-size: 15px;
+}
